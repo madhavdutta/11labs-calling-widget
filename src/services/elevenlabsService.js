@@ -1,10 +1,6 @@
 import axios from 'axios';
 
-const API_KEY = import.meta.env.VITE_ELEVENLABS_API_KEY;
-const BASE_URL<xbeshAction type="file" filePath="src/services/elevenlabsService.js">
-import axios from 'axios';
-
-const API_KEY = import.meta.env.VITE_ELEVENLABS_API_KEY;
+const API_KEY = import.meta.env.VITE_ELEVENLABS_API_KEY || '';
 const BASE_URL = 'https://api.elevenlabs.io/v1';
 
 // Default voice ID - you can change this or make it configurable
